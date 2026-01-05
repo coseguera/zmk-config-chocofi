@@ -9,6 +9,11 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/pointing.h>
 
+&lt {
+  quick_tap_ms = <200>;
+  tapping-term-ms = <250>;
+};
+
 #define meh LS(LA(LCTRL))
 
 / {
