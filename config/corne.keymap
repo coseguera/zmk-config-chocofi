@@ -12,6 +12,35 @@
 #define meh LS(LA(LCTRL))
 
 / {
+        combos {
+            compatible = "zmk,combos";
+            combo_esc {
+                timeout-ms = <50>;
+                key-positions = <1 2>;
+                bindings = <&kp ESC>;
+            };
+            combo_grave {
+                timeout-ms = <50>;
+                key-positions = <3 4>;
+                bindings = <&kp GRAVE>;
+            };
+            combo_tab {
+                timeout-ms = <50>;
+                key-positions = <11 12>;
+                bindings = <&kp TAB>;
+            };
+            combo_dqt {
+                timeout-ms = <50>;
+                key-positions = <15 16>;
+                bindings = <&kp DQT>;
+            };
+            combo_sqt {
+                timeout-ms = <50>;
+                key-positions = <16 17>;
+                bindings = <&kp SQT>;
+            };
+        };
+
         keymap {
                 compatible = "zmk,keymap";
 
