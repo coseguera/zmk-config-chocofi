@@ -16,27 +16,27 @@
             compatible = "zmk,combos";
             combo_esc {
                 timeout-ms = <50>;
-                key-positions = <1 2>;
+                key-positions = <2 3>;
                 bindings = <&kp ESC>;
             };
             combo_grave {
                 timeout-ms = <50>;
-                key-positions = <3 4>;
+                key-positions = <4 5>;
                 bindings = <&kp GRAVE>;
             };
             combo_tab {
                 timeout-ms = <50>;
-                key-positions = <11 12>;
+                key-positions = <14 15>;
                 bindings = <&kp TAB>;
             };
             combo_dqt {
                 timeout-ms = <50>;
-                key-positions = <15 16>;
+                key-positions = <18 19>;
                 bindings = <&kp DQT>;
             };
             combo_sqt {
                 timeout-ms = <50>;
-                key-positions = <16 17>;
+                key-positions = <19 20>;
                 bindings = <&kp SQT>;
             };
         };
